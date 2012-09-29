@@ -118,7 +118,7 @@ public partial class MainWindow: Gtk.Window
 	{
 		var liststore_manufacturers = new Gtk.ListStore(typeof (string));
 		var manufacturers = new List<string> {"Sony", "LG", "Panasonic", "Toshiba", "Nokia", "Samsung"};
-        foreach (var item in manufacturers) {
+        	foreach (var item in manufacturers) {
 			liststore_manufacturers.AppendValues (item);
 		}
 
